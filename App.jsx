@@ -1,0 +1,15 @@
+/*eslint-disable prettier/prettier */
+import React from 'react';
+import {View , Text, Button} from 'react-native';
+
+const App = () => {
+  return (
+    <View>
+      <Text style={ {fontSize:30} }>App Build by Rahul</Text>
+      <Text style={ {fontSize:30} }>This is my first app</Text>
+      <Button title="Submit"/>
+    </View>
+  );
+};
+
+export default App;
