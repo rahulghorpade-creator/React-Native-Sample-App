@@ -7,7 +7,7 @@ const App = () => {
     <View>
       <Text style={ {fontSize:30} }>App Build by Rahul</Text>
       <Text style={ {fontSize:30} }>This is my first app</Text>
-      <Button title="Submit"/>
+      <Button title="Submit Button"/>
     </View>
   );
 };
