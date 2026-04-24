@@ -11,7 +11,7 @@ const JSX = () => {
       <Text style={ {fontSize:40}}>JSX</Text>
       <Text style={ {fontSize:40}}>Name: {name}</Text>
       <Text style={ {fontSize:40}}>Age: {getAge()}</Text>
-
+    <Text style = {{fontSize:40}}>Value of 5+4 = {5+4}</Text>
     </View>
   );
 };
